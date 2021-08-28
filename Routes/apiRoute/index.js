@@ -1,7 +1,9 @@
+// Required packages
 const fs = require('fs');
 const { v4 } = require('uuid');
 const router = require('express').Router();
 
+// GET method to display notes stored in db
 router.get("/notes", (req, res) => {
     fs.readFile("./Develop/db/db.json", "utf8", function (err, data) {
         let noteData = [];
@@ -16,13 +18,13 @@ router.get("/notes", (req, res) => {
         }
     });
 });
-
+// POST method to store a new note in db
 router.post("/notes", (req, res) => {
     let newNote = req.body;
 
     fs.readFile("./Develop/db/db.json", "utf8", (err, data) => {
         if (err) {
-            console.log(`err at the database S{err}`);
+            console.log(`err at the database ${err}`);
         } else {
             if (data.length > 0) {
                 obj = JSON.parse(data);
@@ -56,7 +58,7 @@ router.post("/notes", (req, res) => {
         }
     });
 });
-
+// DELETE method to delete notes stored in db
 router.delete("/notes/:id", (req, res) => {
     fs.readFile("./Develop/db/db.json", "utf8", (err, data) => {
         if (err) {

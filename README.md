@@ -8,6 +8,8 @@ For challenge 11 of the UM Coding Bootcamp, I was tasked with creating a note ta
 ## Table of Contents
 
 
+* [Mock-Up](#mock-up)
+
 * [Built-With](#built-with)
 
 * [Installation](#installation)
@@ -22,7 +24,14 @@ For challenge 11 of the UM Coding Bootcamp, I was tasked with creating a note ta
 
 * [Walkthrough-Video](#walkthrough-video)
 
+* [Deployed](#deployed)
+
 * [Repository](#repository)
+
+
+## Mock-Up
+
+![Homework Screenshot](https://github.com/SalasD93/make-an-express-note/blob/main/assets/Ch11-Screenshot.png?raw=true)
 
 
 ## Built-With
@@ -61,6 +70,12 @@ If you have any questions about the repo, open an issue or contact me directly a
 ## Walkthrough Video
 
 https://drive.google.com/file/d/1ogMMX93MExO3ri6c8OkEJl75RQ_PmfpF/view
+
+
+## Deployed
+
+https://make-an-express-note.herokuapp.com/notes
+
 
 ## Repository
 
