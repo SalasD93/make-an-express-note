@@ -31,7 +31,7 @@ For challenge 11 of the UM Coding Bootcamp, I was tasked with creating a note ta
 
 ## Mock-Up
 
-![Homework Screenshot](https://github.com/SalasD93/make-an-express-note/blob/main/Assets/Ch11-Screenshot.png?raw=true)
+![Homework Screenshot](https://github.com/SalasD93/make-an-express-note/blob/main/assets/Ch11-Screenshot.png?raw=true)
 
 
 ## Built-With
